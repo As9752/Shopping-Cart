@@ -1,0 +1,71 @@
+.Sign{
+    height:620px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Sign_Container{
+    background-color: #c0c0c0;
+    height:500px;
+    width:400px;
+    border:2px black solid;
+    display: grid;
+}
+.Sign_title{
+    font-size: 22px;
+    font-weight: 600;
+    padding: 2rem;
+    margin-top: 80px;
+}
+.Email_input{
+    display: grid;
+    padding: 2rem;
+}
+label{
+    font-size: 20px;
+    font-weight: 600;
+}
+input[type=Email]{
+    width:100%;
+    font-size: 15px;
+    padding: 11.7px 20px;
+    cursor: pointer;
+    background-color:cornsilk;
+}
+.Password_input{
+    display: grid;
+    padding: 2rem;
+}
+input[type=Password]{
+    width:100%;
+    font-size: 15px;
+    padding: 11.7px 20px;
+    cursor: pointer;
+    background-color:cornsilk;
+}
+.Button{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    padding-left: 30px;
+}
+.Buttons > button{
+    height: 40px;
+    width: 200px;
+    margin-left:100px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: orange;
+    align-items: center;
+    justify-content: center;
+}
+.Create_new_account{
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  padding: 2rem;
+}

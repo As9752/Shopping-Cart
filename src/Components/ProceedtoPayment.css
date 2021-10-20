@@ -1,0 +1,19 @@
+.Home{
+    background-color:grey;
+    height:100vh;
+}
+.Payment{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.input{
+    color:black;
+}
+.input input[type=text]{
+    display: grid; 
+    /* /* color:black; */
+} 
